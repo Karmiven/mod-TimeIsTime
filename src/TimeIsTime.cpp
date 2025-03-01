@@ -39,7 +39,7 @@ public:
 
     void OnLogin(Player* player) {
         if (stimeistime_enable && stimeistime_announce)
-            ChatHandler(player->GetSession()).SendSysMessage("服务器已开启 |cff4CFF00TimeIsTime |r模块");
+             ChatHandler(player->GetSession()).SendSysMessage("This server is running the |cff4CFF00TimeIsTime |rmodule");
     }
 	
     void OnSendInitialPacketsBeforeAddToMap(Player* player, WorldPacket& data) override {
