@@ -64,7 +64,7 @@ public:
     }
 };
 
-void AddTimeIsTimeScripts() {
+void Addmod_TimeIsTimeScripts() {
     new TimeIsTimeBeforeConfigLoad();
     new TimeIsTime();
 }
